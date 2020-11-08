@@ -29,18 +29,36 @@
 </head>
 
 <body class="container">
-  <header class="container__header">
-    <img src="./assets/svg/logo.svg" alt="Logotype">
-    <ul class="container__header__list container__header--pad20">
-      <li>Features</li>
-      <li>Team</li>
-      <li>Sign In</li>
-    </ul>
+  <header class="header d-flex flex-column">
+    <nav class="header__nav nav--padding20">
+      <img src="./assets/svg/logo.svg" alt="Logotype" width="100px">
+      <ul class="nav__ul">
+        <li class="nav__li--size">
+          <a href="#" class="nav__li__anchor">
+            Features
+          </a>
+        </li>
+        <li class="nav__li--size">
+          <a href="#" class="nav__li__anchor">
+            Team
+          </a>
+        </li>
+        <li class="nav__li--size">
+          <a href="#" class="nav__li__anchor">
+            Sign In
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <img src="./assets/img/illustration-intro.png" alt="Illustration intro" width="350px" height="auto"
+      class="nav__image--index d-flex align-self-center">
+    <img src="./assets/svg/bg-curvy-mobile.svg" alt="Illustration intro" width="auto" height="auto"
+      class="image__curry--absolute">
   </header>
   <main class="main">
     <div class="intro-background">
+
       <div class="d-flex flex-column align-items-center text-center pad30">
-        <img src="./assets/img/illustration-intro.png" alt="Illustration intro" width="auto" height="200px">
         <h3 class="main__header--fontsize">
           All your files in one secure location, accessible anywhere.
         </h3>
