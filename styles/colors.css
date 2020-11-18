@@ -3,7 +3,8 @@
 	--darkblue-primary-main: hsl(218, 28%, 13%);
 	--darkblue-primary-footer: hsl(216, 53%, 9%);
 	--darkblue-primary-testimonials: hsl(219, 30%, 18%);
-	--accent-cyan: hsl(176, 68%, 64%);
+	--accent-cyan: #65e2d9;
+	--accent-cyan-chroma: #82c9c4;
 	--accent-blue: hsl(198, 60%, 50%);
 	--neutral-white: hsl(0, 0%, 100%);
 }
