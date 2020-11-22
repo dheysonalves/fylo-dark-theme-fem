@@ -162,20 +162,21 @@
     </div>
   </main>
 
-  <footer>
-    <div>
+  <footer class="footer-wrapper">
+    <div class="relative-div">
       <div class="form-absolute">
         <form action="">
-          <div>
-            <h2>Get early access today</h2>
-            <p>
+          <div class="d-flex flex-column text-center">
+            <h3 class="form__header">Get early access today</h3>
+            <p class="form__paragraph">
               It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
               questions, our support team would be happy to help you.
             </p>
-            <input type="text">
+            <input type="text" class="form__input--custom" placeholder="email@example.com" aria-placeholder="mail"/>
+            <button class="form__button--custom">Get Started For Free</button>
           </div>
-          <button>Get Started For Free</button>
         </form>
+      </div>
         <div>
           <img src="./assets/svg/logo.svg" alt="">
           <div>
@@ -213,7 +214,6 @@
             Coded by <a href="#">Your Name Here</a>.
           </p>
         </div>
-      </div>
     </div>
   </footer>
 </body>
