@@ -72,6 +72,10 @@
 	justify-content: center;
 }
 
+.justify-content-betweem {
+	justify-content: space-between;
+}
+
 .align-self-center {
 	align-self: center;
 }
@@ -251,4 +255,31 @@
 	font-weight: bold;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+.footer__info--margin {
+	margin: 30px;
+}
+
+.footer__info__logo {
+	margin-left: 10px;
+}
+
+.footer__info__icon {
+	margin-top: 20px;
+}
+
+.footer__info__paragraph {
+	margin: 0px;
+	margin-left: 20px;
+}
+
+
+.unordered__reset {
+	list-style: none;
+}
+
+.unordered__item {
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
