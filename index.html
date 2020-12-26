@@ -31,7 +31,7 @@
 <body class="container">
   <header class="header d-flex flex-column">
     <nav class="header__nav nav--padding20">
-      <img src="./assets/svg/logo.svg" alt="Logotype" width="100px">
+      <img src="./assets/svg/logo.svg" alt="Fylo's Logotype" width="100px">
       <ul class="nav__ul">
         <li class="nav__li--size">
           <a href="#" class="nav__li__anchor">
@@ -50,15 +50,15 @@
         </li>
       </ul>
     </nav>
-    <img src="./assets/img/illustration-intro.png" alt="Illustration intro" width="350px" height="auto"
-      class="nav__image--index d-flex align-self-center">
+
     <img src="./assets/svg/bg-curvy-mobile.svg" alt="Illustration intro" width="auto" height="auto"
       class="image__curry--absolute">
   </header>
   <main class="main">
     <div class="intro-background">
-
       <div class="d-flex flex-column align-items-center text-center pad30">
+        <img src="./assets/img/illustration-intro.png" alt="Illustration intro"
+          class="nav__image--index d-flex align-self-center nav-image">
         <h3 class="main__header--fontsize">
           All your files in one secure location, accessible anywhere.
         </h3>
@@ -70,42 +70,45 @@
           Get Started
         </button>
       </div>
-      <div>
-
-        <div class="main__group pad30 text-center">
-          <img src="./assets/svg/icon-access-anywhere.svg" alt="" srcset="">
-          <h3 class="main__header--fontsize">Access your files, anywhere</h3>
-          <p class="main__paragraph--lineheight pad15">The ability to use a smartphone, tablet, or computer to access
-            your account means your
-            files follow you everywhere.</p>
+      <div id="main-groups">
+        <div class="groups-desktop-flex">
+          <div class="main__group pad30 text-center">
+            <img src="./assets/svg/icon-access-anywhere.svg" alt="" srcset="">
+            <h3 class="main__header--fontsize">Access your files, anywhere</h3>
+            <p class="main__paragraph--lineheight pad15">The ability to use a smartphone, tablet, or computer to access
+              your account means your
+              files follow you everywhere.</p>
+          </div>
+          <div class="main__group pad30 text-center">
+            <img src="./assets/svg/icon-security.svg" alt="" srcset="">
+            <h3 class="main__header--fontsize">Security you can trust</h3>
+            <p class="main__paragraph--lineheight pad15">2-factor authentication and user-controlled encryption are just
+              a
+              couple of the security
+              features we allow to help secure your files.</p>
+          </div>
         </div>
+        <div class="groups-desktop-flex">
+          <div class="main__group pad30 text-center">
+            <img src="./assets/svg/icon-collaboration.svg" alt="" srcset="">
+            <h3 class="main__header--fontsize">Real-time collaboration</h3>
+            <p class="main__paragraph--lineheight pad15">Securely share files and folders with friends, family and
+              colleagues for live collaboration.
+              No email attachments required.</p>
+          </div>
 
-        <div class="main__group pad30 text-center">
-          <img src="./assets/svg/icon-security.svg" alt="" srcset="">
-          <h3 class="main__header--fontsize">Security you can trust</h3>
-          <p class="main__paragraph--lineheight pad15">2-factor authentication and user-controlled encryption are just a
-            couple of the security
-            features we allow to help secure your files.</p>
+          <div class="main__group pad30 text-center">
+            <img src="./assets/svg/icon-any-file.svg" alt="" srcset="">
+            <h3 class="main__header--fontsize">Store any type of file</h3>
+            <p class="main__paragraph--lineheight pad15">Whether you're sharing holidays photos or work documents, Fylo
+              has you covered allowing for all
+              file types to be securely stored and shared.</p>
+          </div>
         </div>
-
-        <div class="main__group pad30 text-center">
-          <img src="./assets/svg/icon-collaboration.svg" alt="" srcset="">
-          <h3 class="main__header--fontsize">Real-time collaboration</h3>
-          <p class="main__paragraph--lineheight pad15">Securely share files and folders with friends, family and
-            colleagues for live collaboration.
-            No email attachments required.</p>
-        </div>
-
-        <div class="main__group pad30 text-center">
-          <img src="./assets/svg/icon-any-file.svg" alt="" srcset="">
-          <h3 class="main__header--fontsize">Store any type of file</h3>
-          <p class="main__paragraph--lineheight pad15">Whether you're sharing holidays photos or work documents, Fylo
-            has you covered allowing for all
-            file types to be securely stored and shared.</p>
-        </div>
-
-        <div class="main__group pad30">
-          <img src="./assets/img/illustration-stay-productive.png" width="350px" alt="" srcset="">
+      </div>
+      <div class="main__group productive-main-group pad30" id="stay-productive">
+        <img src="./assets/img/illustration-stay-productive.png" width="500px" alt="" srcset="">
+        <div>
           <h3 class="main__header--fontsize">Stay productive, wherever you are</h3>
           <p class="main__paragraph--lineheight pad15">Never let location be an issue when accessing your files. Fylo
             has you covered for all of your file
@@ -121,45 +124,45 @@
             </a>
           </div>
         </div>
+      </div>
+      <div class="feedbacks">
+        <div class="feedback-group">
+          <p class="feedback__paragraph">
+            Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+            become a well-oiled collaboration machine.
+          </p>
+          <div class="contributer-container">
+            <img src="./assets/img/profile-3.jpg" alt="" class="contributer-avatar">
+            <div class="user--info-pad">
+              <p class="user-paragraph">Satish Patel</p>
+              <small>Founder & CEO, Huddle</small>
+            </div>
+          </div>
+        </div>
 
-        <div class="feedbacks">
-          <div class="feedback-group">
-            <p class="feedback__paragraph">
-              Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
-              become a well-oiled collaboration machine.
-            </p>
-            <div class="contributer-container">
-              <img src="./assets/img/profile-3.jpg" alt="" class="contributer-avatar">
-              <div class="user--info-pad">
-                <p class="user-paragraph">Satish Patel</p>
-                <small>Founder & CEO, Huddle</small>
-              </div>
+        <div class="feedback-group">
+          <p class="feedback__paragraph">
+            Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+            become a well-oiled collaboration machine.
+          </p>
+          <div class="contributer-container">
+            <img src="./assets/img/profile-2.jpg" alt="" class="contributer-avatar">
+            <div class="user--info-pad">
+              <p class="user-paragraph">Bruce McKenzie</p>
+              <small>Founder & CEO, Huddle</small>
             </div>
           </div>
-          <div class="feedback-group">
-            <p class="feedback__paragraph">
-              Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
-              become a well-oiled collaboration machine.
-            </p>
-            <div class="contributer-container">
-              <img src="./assets/img/profile-2.jpg" alt="" class="contributer-avatar">
-              <div class="user--info-pad">
-                <p class="user-paragraph">Bruce McKenzie</p>
-                <small>Founder & CEO, Huddle</small>
-              </div>
-            </div>
-          </div>
-          <div class="feedback-group">
-            <p class="feedback__paragraph">
-              Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
-              become a well-oiled collaboration machine.
-            </p>
-            <div class="contributer-container">
-              <img src="./assets/img/profile-1.jpg" alt="" class="contributer-avatar">
-              <div class="user--info-pad">
-                <p class="user-paragraph">Iva Boyd</p>
-                <small>Founder & CEO, Huddle</small>
-              </div>
+        </div>
+        <div class="feedback-group">
+          <p class="feedback__paragraph">
+            Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+            become a well-oiled collaboration machine.
+          </p>
+          <div class="contributer-container">
+            <img src="./assets/img/profile-1.jpg" alt="" class="contributer-avatar">
+            <div class="user--info-pad">
+              <p class="user-paragraph">Iva Boyd</p>
+              <small>Founder & CEO, Huddle</small>
             </div>
           </div>
         </div>
