@@ -191,7 +191,7 @@
 	align-items: flex-start;
 	flex-direction: column;
 	justify-content: space-between;
-	margin: 100px 0;
+	margin: 200px 0;
 	position: relative;
 }
 
@@ -246,10 +246,12 @@
 }
 
 .form-absolute {
+	position: relative;
+	bottom: 130px;
 	background-color: var(--darkblue-primary-testimonials);
 	border-radius: 10px;
-	padding: 20px;
-	margin: 20px;
+	padding: 40px 60px;
+	margin: 20px 50px;
 }
 
 .footer-wrapper {
@@ -286,6 +288,10 @@
 
 .footer__info--margin {
 	margin: 30px;
+}
+
+.footer__info--margin > ul {
+	padding: 10px 0;
 }
 
 .footer__info__logo {
