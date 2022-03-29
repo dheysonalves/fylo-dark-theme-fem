@@ -137,13 +137,27 @@
 	line-height: 25px;
 }
 
+.main__p--pb20 {
+	padding-bottom: 20px;
+}
+
 .pad30 {
 	padding: 30px;
+}
+
+.px80 {
+	padding-left: 80px;
+	padding-right: 80px;
 }
 
 .pad15 {
 	padding-bottom: 15px;
 	padding-top: 15px;
+}
+
+.pad10 {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .main__button-state {
@@ -231,7 +245,7 @@
 .contributer-container {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	align-items: flex-start;
 }
 
 .contributer-avatar {
@@ -241,8 +255,8 @@
 }
 
 .user-paragraph {
-	margin: 0px;
-	margin-bottom: 10px;
+	margin: 0;
+	margin-bottom: 2px;
 }
 
 .user--info-pad {
@@ -260,6 +274,13 @@
 	border-radius: 10px;
 	padding: 40px 60px;
 	margin: 20px 50px;
+}
+
+.form__submit--flex {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	align-items: center;
 }
 
 .footer-wrapper {
@@ -328,6 +349,10 @@
 	background-image: url("/assets/svg/bg-curvy-mobile.svg");
 }
 
+.main__productive-main--img {
+	width: auto;
+}
+
 @media (min-width: 1280px) {
 	.feedbacks {
 		flex-direction: row;
@@ -335,8 +360,8 @@
 	}
 
 	.feedback-group {
-		margin: 0;
-		width: 500px;
+		margin: 20px 50px;
+		width: auto;
 	}
 
 	.feedbacks > div.feedback-quote {
@@ -374,6 +399,45 @@
 		align-items: baseline;
 	}
 
+	.relative-div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.form-absolute {
+		width: 800px;
+		padding: 40px 80px;
+	}
+
+	.form__header {
+		font-size: 2rem;
+		margin: 0;
+		padding: 10px 0;
+	}
+
+	.form__paragraph {
+		padding: 20px 0 30px 0;
+		margin: 0 20px;
+		line-height: 1.5rem;
+	}
+
+	.form__submit--flex {
+		display: grid;
+		grid-template-columns: 2.5fr 1fr;
+		grid-template-rows: 1fr;
+		align-items: center;
+	}
+
+	.user-paragraph {
+		margin-bottom: 0;
+	}
+
+	.form__input--custom {
+		margin: 0;
+		margin-right: 20px;
+	}
+
 	.nav__ul {
 		min-width: 20%;
 	}
@@ -390,15 +454,25 @@
 		/* max-width: 50%; */
 	}
 	.main__p--lineheight {
-		/* max-width: 50%; */
+		margin: 0;
+	}
+
+	.main__description--width {
+		width: 85%;
 	}
 
 	.groups-desktop-flex {
 		display: flex;
 	}
 	.productive-main-group {
-		flex-direction: row;
-		align-items: center;
-		justify-content: space-between;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 4rem;
+	}
+
+	.main__header--fontsize {
+		font-size:  2.3rem;
+		line-height: 3rem;
+		margin: 0;
 	}
 }
