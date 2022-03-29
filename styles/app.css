@@ -16,8 +16,8 @@
 
 .header__img--absolute {
 	position: absolute;
-	width: 560px;
-	top: 150px;
+	width: 100%;
+	top: 80px;
 }
 
 .nav__img--size {
@@ -129,12 +129,21 @@
 }
 
 .main__h3--fontsize {
-	font-size: max(24px, 2.2vw);
-	line-height: 35px;
+	font-size: max(3.1rem, 2.2vw);
+	line-height: 5rem;
+	margin: 0;
+}
+
+.main-p--size {
+	font-size: max(1.8rem, 2.2vw);
+	text-align: center;
+	font-weight: 300;
+	margin: 20px 40px;
 }
 
 .main__p--lineheight {
-	line-height: 25px;
+		line-height: 3rem;
+
 }
 
 .main__p--pb20 {
@@ -161,8 +170,10 @@
 }
 
 .main__button-state {
-	width: 250px;
+	width: 60%;
+	height: 80px;
 	padding: 15px;
+	font-size: 1.8rem;
 	border-radius: 40px;
 	background-color: var(--accent-cyan);
 	color: white;
