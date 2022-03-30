@@ -125,7 +125,11 @@
 }
 
 .main__dark-blue--bg {
-	background-color: var(--darkblue-primary-main);
+	/* background-color: var(--darkblue-primary-main); */
+	background-image: url(../assets/svg/bg-curvy-mobile.svg);
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: contain;
 }
 
 .main__h3--fontsize {
@@ -228,6 +232,7 @@
 }
 
 .main-groups {
+	background-color: var(--darkblue-primary-main);
 	margin: 140px 0;
 }
 
@@ -309,7 +314,7 @@
 .form-absolute {
 	position: relative;
 	bottom: 200px;
-	background-color: var(--darkblue-primary-testimonials);
+	background-color: var(--darkblue-primary-intro);
 	border-radius: 10px;
 	padding: 40px 60px;
 	margin: 30px 40px;
@@ -360,7 +365,7 @@
 }
 
 .footer__info--margin {
-	margin: 30px;
+	margin: 80px 30px 30px 30px;
 }
 
 .footer__info--margin > ul {
@@ -371,13 +376,22 @@
 	margin-left: 10px;
 }
 
+.footer__img--size {
+	width: 300px;
+}
+
 .footer__info__icon {
 	margin-top: 20px;
 }
 
+.footer__img-left-icon--size {
+	width: 30px;
+}
+
 .footer__info__paragraph {
-	margin: 0px;
-	margin-left: 20px;
+	margin: 0 0 0 40px;
+	font-size: 2rem;
+	line-height: 3rem;
 }
 
 .unordered__reset {
@@ -387,6 +401,7 @@
 .unordered__item {
 	margin-top: 30px;
 	margin-bottom: 30px;
+	font-size: 2rem;
 }
 
 .bg-curvy-background {
@@ -425,6 +440,25 @@
 	margin: 0;
 	line-height: 2.4rem;
 	font-size: 1.5rem;
+}
+
+.footer-wrapper-social {
+	padding: 0 20px 0 20px;
+}
+
+.footer__social-media {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer__social-media--size {
+	width: 45px;
+	margin-right: 20px;
+}
+
+.footer__social-media--size:last-of-type {
+	margin: 0;
 }
 
 @media (min-width: 1280px) {
