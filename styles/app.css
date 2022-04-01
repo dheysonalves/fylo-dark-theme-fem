@@ -16,7 +16,7 @@
 
 .header__img--absolute {
 	position: absolute;
-	width: 100%;
+	/* width: 100%; */
 	top: 80px;
 }
 
@@ -125,11 +125,11 @@
 }
 
 .main__dark-blue--bg {
-	/* background-color: var(--darkblue-primary-main); */
-	background-image: url(../assets/svg/bg-curvy-mobile.svg);
+	background-color: var(--darkblue-primary-main);
+	/* background-image: url(../assets/svg/bg-curvy-mobile.svg);
 	background-repeat: no-repeat;
 	width: 100%;
-	background-size: contain;
+	background-size: contain; */
 }
 
 .main__h3--fontsize {
@@ -486,8 +486,12 @@
 		justify-content: space-between;
 	}
 
+	.footer__info__paragraph {
+		font-size: 1.3rem;
+	}
+
 	p.fylo-footer-wrapper-descriptions {
-		width: 350px;
+		/* width: 350px; */
 		margin-right: 40px;
 	}
 
