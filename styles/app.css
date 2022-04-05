@@ -488,6 +488,7 @@
 
 	.footer__info__paragraph {
 		font-size: 1.3rem;
+		line-height: 2rem;
 	}
 
 	p.fylo-footer-wrapper-descriptions {
@@ -496,6 +497,7 @@
 	}
 
 	.unordered__reset > li {
+		font-size: 1rem;
 		margin-right: 40px;
 	}
 
