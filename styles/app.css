@@ -25,8 +25,9 @@
 }
 
 .nav-image {
-	width: 350px;
+	width: 450px;
 	height: auto;
+	margin-bottom: 20px;
 }
 
 .header__nav--pad20 {
@@ -126,10 +127,6 @@
 
 .main__dark-blue--bg {
 	background-color: var(--darkblue-primary-main);
-	/* background-image: url(../assets/svg/bg-curvy-mobile.svg);
-	background-repeat: no-repeat;
-	width: 100%;
-	background-size: contain; */
 }
 
 .main__h3--fontsize {
@@ -487,13 +484,13 @@
 	}
 
 	.footer__info__paragraph {
-		font-size: 1.3rem;
+		font-size: 1rem;
 		line-height: 2rem;
 	}
 
 	p.fylo-footer-wrapper-descriptions {
-		/* width: 350px; */
 		margin-right: 40px;
+		font-size: 1rem;
 	}
 
 	.unordered__reset > li {
@@ -525,7 +522,7 @@
 	}
 
 	.form__header {
-		font-size: 2rem;
+		font-size: 2.4rem;
 		margin: 0;
 		padding: 10px 0;
 	}
@@ -533,14 +530,19 @@
 	.form__paragraph {
 		padding: 20px 0 30px 0;
 		margin: 0 20px;
-		line-height: 1.5rem;
+		line-height: 2rem;
+		font-size: 1.2rem;
 	}
 
 	.form__submit--flex {
 		display: grid;
-		grid-template-columns: 2.5fr 1fr;
+		grid-template-columns: 2fr 1fr;
 		grid-template-rows: 1fr;
 		align-items: center;
+	}
+
+	.form__button--custom {
+		font-size: 1rem;
 	}
 
 	.user-paragraph {
@@ -559,14 +561,21 @@
 		padding: 35px;
 	}
 	.nav-image {
-		width: 600px;
+		width: 450px;
 	}
 	.main__h3--fontsize {
-		line-height: auto;
+		font-size: 2.4rem;
 	}
-	.main__h3--fontsize {
-		/* max-width: 50%; */
+
+	.main-p--size {
+		font-size: 1.5rem;
 	}
+
+	.main__button-state {
+		width: 30%;
+		font-size: 1.5rem;
+	}
+
 	.main__p--lineheight {
 		margin: 0;
 	}
@@ -579,14 +588,19 @@
 		display: flex;
 	}
 
+	.main__p--size {
+		font-size: 1.3rem;
+	}
+
 	.productive-main-group {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		column-gap: 4rem;
 	}
 
+	.main__header
 	.main__header--fontsize {
-		font-size: 2.3rem;
+		font-size: 2rem;
 		line-height: 3rem;
 		margin: 0;
 		text-align: start;
@@ -599,5 +613,20 @@
 	.main__group--px {
 		padding-left: 80px;
 		padding-right: 80px;
+	}
+
+	.main__header_p--size {
+		font-size: 1.3rem;
+	}
+	.feedback__paragraph {
+		font-size: 1rem;
+	}
+
+	.contributer-container {
+		align-items: center;
+	}
+
+	.user-paragraph {
+		font-size: 0.8rem;
 	}
 }
