@@ -564,7 +564,7 @@
 		width: 450px;
 	}
 	.main__h3--fontsize {
-		font-size: 2.4rem;
+		font-size: 3.5rem;
 	}
 
 	.main-p--size {
@@ -603,6 +603,11 @@
 		font-size: 2rem;
 		line-height: 3rem;
 		margin: 0;
+		text-align: start;
+	}
+
+	h3.main__header--stay-productive {
+		font-size: 3rem;
 		text-align: start;
 	}
 
